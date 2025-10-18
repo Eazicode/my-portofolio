@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { Button } from 'antd';
-import { Github, Linkedin, Mail, Download } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Button } from "antd";
+import { Github, Linkedin, Mail, Download } from "lucide-react";
 
 export const Hero = () => {
   const containerVariants = {
@@ -51,8 +51,9 @@ export const Hero = () => {
           variants={itemVariants}
           className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          Results-driven Frontend Engineer with over 2 years of hands-on experience optimizing
-          frontend applications for responsive design, SEO, and enhanced site performance.
+          Results-driven Frontend Engineer with over 2 years of hands-on
+          experience optimizing frontend applications for responsive design,
+          SEO, and enhanced site performance.
         </motion.p>
 
         <motion.div
@@ -72,6 +73,8 @@ export const Hero = () => {
             size="large"
             icon={<Download className="w-4 h-4" />}
             className="h-12 px-8"
+            href="./my-resume.pdf"
+            target="_blank"
           >
             Download CV
           </Button>
@@ -82,7 +85,7 @@ export const Hero = () => {
           className="flex gap-6 justify-center"
         >
           <a
-            href="https://github.com/kalueze"
+            href="https://github.com/Eazicode"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card border border-border hover:bg-accent hover:border-primary transition-all"
@@ -90,7 +93,7 @@ export const Hero = () => {
             <Github className="w-5 h-5 text-foreground" />
           </a>
           <a
-            href="https://linkedin.com/in/kalueze"
+            href="https://linkedin.com/in/kalu-eze-0142a6312"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-card border border-border hover:bg-accent hover:border-primary transition-all"
