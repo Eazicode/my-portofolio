@@ -36,7 +36,7 @@ export const About = () => {
             <Card className="h-full border-border hover:border-primary transition-all">
               <h3 className="text-2xl font-semibold mb-4 text-foreground">Profile</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Results-driven Frontend Engineer with over 2 years of hands-on experience optimizing
+                Results-driven Frontend Engineer with over 3 years of hands-on experience optimizing
                 frontend applications for responsive design, SEO, and enhanced site performance. Eager
                 to contribute to high-performing teams by delivering scalable, user-focused designs that
                 fuel business growth and drive measurable success.

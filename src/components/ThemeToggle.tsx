@@ -10,9 +10,7 @@ export const ThemeToggle = () => {
       onClick={toggleTheme}
       className="fixed top-6 right-6 z-50 p-3 rounded-full bg-card border border-border hover:bg-accent transition-colors"
       whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      aria-label="Toggle theme"
-    >
+      whileTap={{ scale: 0.95 }}    >
       <motion.div
         initial={false}
         animate={{ rotate: theme === 'dark' ? 180 : 0 }}

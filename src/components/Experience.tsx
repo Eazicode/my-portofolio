@@ -7,7 +7,7 @@ export const Experience = () => {
     {
       title: "Frontend Engineer",
       company: "STAYTROVE",
-      period: "Aug 2025",
+      period: "Jun 2025 - Aug 2025",
       description: [
         "Translated Figma/UI designs into pixel-perfect layouts using modern frontend technologies",
         "Collaborated with design and product team to deliver user-friendly interfaces",
@@ -16,19 +16,6 @@ export const Experience = () => {
         "Developed responsive web application (Landing Page, Terms & Conditions, Privacy Policy)",
       ],
       link: "http://web.staytrove.com",
-    },
-    {
-      title: "Frontend Engineer",
-      company: "VORTEXCORE",
-      period: "Feb 2025",
-      description: [
-        "Built fully responsive interface with Tailwind CSS and media queries",
-        "Developed animated hero sections with strategic CTAs",
-        "Structured SEO-friendly service pages for improved discoverability",
-        "Integrated backend APIs for dynamic, real-time content updates",
-        "Optimized performance through lazy loading and image compression",
-      ],
-      link: "https://www.vortexcore.ca",
     },
     {
       title: "Stanbic IBTC Blue Intern",
@@ -41,6 +28,19 @@ export const Experience = () => {
         "Updated client investment portfolios and maintained databases",
         "Supported stock performance tracking and financial statement analysis",
       ],
+    },
+    {
+      title: "Frontend Engineer",
+      company: "VORTEXCORE",
+      period: "Sept 2023 - Nov 2023",
+      description: [
+        "Built fully responsive interface with Tailwind CSS and media queries",
+        "Developed animated hero sections with strategic CTAs",
+        "Structured SEO-friendly service pages for improved discoverability",
+        "Integrated backend APIs for dynamic, real-time content updates",
+        "Optimized performance through lazy loading and image compression",
+      ],
+      link: "https://www.vortexcore.ca",
     },
   ];
 

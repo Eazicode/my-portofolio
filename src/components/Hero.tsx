@@ -51,7 +51,7 @@ export const Hero = () => {
           variants={itemVariants}
           className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          Results-driven Frontend Engineer with over 2 years of hands-on
+          Results-driven Frontend Engineer with over 3 years of hands-on
           experience optimizing frontend applications for responsive design,
           SEO, and enhanced site performance.
         </motion.p>
