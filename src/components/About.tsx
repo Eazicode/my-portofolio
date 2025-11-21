@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import { Card } from 'antd';
-import { MapPin, GraduationCap, Phone, Mail } from 'lucide-react';
+import { motion } from "framer-motion";
+import { Card } from "antd";
+import { MapPin, GraduationCap, Phone, Mail } from "lucide-react";
 
 export const About = () => {
   const fadeInUp = {
@@ -22,7 +22,9 @@ export const About = () => {
           variants={fadeInUp}
           className="mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">About Me</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-foreground">
+            About Me
+          </h2>
           <div className="h-1 w-20 bg-gradient-to-r from-primary to-primary/50 rounded-full" />
         </motion.div>
 
@@ -34,12 +36,22 @@ export const About = () => {
             variants={fadeInUp}
           >
             <Card className="h-full border-border hover:border-primary transition-all">
-              <h3 className="text-2xl font-semibold mb-4 text-foreground">Profile</h3>
+              <h3 className="text-2xl font-semibold mb-4 text-foreground">
+                Profile
+              </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Results-driven Frontend Engineer with over 3 years of hands-on experience optimizing
-                frontend applications for responsive design, SEO, and enhanced site performance. Eager
-                to contribute to high-performing teams by delivering scalable, user-focused designs that
-                fuel business growth and drive measurable success.
+                Results-driven Frontend Engineer with 3+ years of experience
+                developing and optimizing high-performance web applications
+                using modern JavaScript frameworks (React, TypeScript, Next.js).
+                Proven ability to implement responsive UI/UX, improve Core Web
+                Vitals, enhance SEO, and reduce page load time through
+                performance optimization, code-splitting, and reusable component
+                architecture. Skilled in building scalable, maintainable, and
+                user-centered interfaces that align with business goals. Adept
+                at collaborating with cross-functional teams (Product, Backend,
+                UI/UX) to deliver high-quality, production-ready features that
+                drive user engagement, boost conversion rates, and support
+                overall product growth.
               </p>
             </Card>
           </motion.div>
@@ -52,7 +64,9 @@ export const About = () => {
             transition={{ delay: 0.2 }}
           >
             <Card className="h-full border-border hover:border-primary transition-all">
-              <h3 className="text-2xl font-semibold mb-6 text-foreground">Contact & Education</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-foreground">
+                Contact & Education
+              </h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Phone className="w-5 h-5 text-primary" />
@@ -60,7 +74,10 @@ export const About = () => {
                 </div>
                 <div className="flex items-center gap-3 text-muted-foreground">
                   <Mail className="w-5 h-5 text-primary" />
-                  <a href="mailto:Mistereze16@gmail.com" className="hover:text-primary transition-colors">
+                  <a
+                    href="mailto:Mistereze16@gmail.com"
+                    className="hover:text-primary transition-colors"
+                  >
                     Mistereze16@gmail.com
                   </a>
                 </div>
@@ -72,9 +89,15 @@ export const About = () => {
                   <div className="flex items-start gap-3">
                     <GraduationCap className="w-5 h-5 text-primary mt-1" />
                     <div>
-                      <p className="font-medium text-foreground">BSc. in Physics</p>
-                      <p className="text-sm text-muted-foreground">Federal University of Abeokuta</p>
-                      <p className="text-sm text-muted-foreground">Oct 2020 – Jul 2025</p>
+                      <p className="font-medium text-foreground">
+                        BSc. in Physics
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        Federal University of Abeokuta
+                      </p>
+                      <p className="text-sm text-muted-foreground">
+                        Oct 2020 – Jul 2025
+                      </p>
                     </div>
                   </div>
                 </div>

@@ -19,7 +19,7 @@ export const Experience = () => {
       link: "http://web.staytrove.com",
     },
     {
-      title: "Stanbic IBTC Blue Intern",
+      title: "Stanbic IBTC Junior Engineer",
       company: "STANBIC IBTC",
       period: "Jul 2024 – Oct 2024",
       description: [
@@ -33,13 +33,13 @@ export const Experience = () => {
     {
       title: "Frontend Engineer",
       company: "VORTEXCORE",
-      period: "Sept 2023 - Nov 2023",
+      period: "Sept 2023 - Dec 2023",
       description: [
-        "Built fully responsive interface with Tailwind CSS and media queries",
-        "Developed animated hero sections with strategic CTAs",
-        "Structured SEO-friendly service pages for improved discoverability",
-        "Integrated backend APIs for dynamic, real-time content updates",
-        "Optimized performance through lazy loading and image compression",
+        "Engineered admin dashboards with charts, data grids, and role-based routing, improving operational workflow efficiency.",
+        "Developed scalable React + TypeScript storefronts and reusable UI components, improving development efficiency by 35% across cross-functional client projects",
+        "Added frontend observability for all API integrations — metric reporting, latency tracking, cache hit ratios, and error distribution analysis—to continuously optimize real-time content update performance and reliability.",
+        "Designed a scalable API consumption layer with typed contracts, error boundaries, retry logic, and intelligent caching, enabling dynamic, real-time content updates while maintaining predictable rendering and fault-tolerant UI behavior.",
+        "Established a typed API integration framework using TypeScript contracts, runtime validation (Zod), and structured error boundaries, ensuring dynamic content updates remained strongly typed, resilient to backend schema drift, and safe for concurrent UI workloads.",
       ],
       link: "https://www.vortexcore.ca",
     },

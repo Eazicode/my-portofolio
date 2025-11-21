@@ -42,18 +42,20 @@ export const Hero = () => {
 
         <motion.h1
           variants={itemVariants}
-          className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent"
+          className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent"
         >
           Kalu Eze Emmanuel
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
-          className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
+          className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
         >
           Results-driven Frontend Engineer with over 3 years of hands-on
           experience optimizing frontend applications for responsive design,
-          SEO, and enhanced site performance.
+          SEO, and enhanced site performance. Eager to contribute to
+          high-performing teams by delivering scalable, user-focused designs
+          that fuel business growth and drive measurable success.
         </motion.p>
 
         <motion.div
