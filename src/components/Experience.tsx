@@ -19,7 +19,7 @@ export const Experience = () => {
       link: "http://web.staytrove.com",
     },
     {
-      title: "Stanbic IBTC Junior Engineer",
+      title: "Junior Engineer",
       company: "STANBIC IBTC",
       period: "Jul 2024 – Oct 2024",
       description: [
@@ -81,12 +81,12 @@ export const Experience = () => {
               transition={{ delay: index * 0.1 }}
             >
               <Card className="border-border hover:border-primary transition-all">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-primary/10 text-primary">
-                    <Briefcase className="w-6 h-6" />
-                  </div>
-                  <div className="flex-1">
-                    <div className="flex items-start justify-between flex-wrap gap-2 mb-2">
+                <div>
+                  <div className="flex items-start justify-between flex-wrap gap-2 mb-2">
+                    <div className="flex gap-5">
+                      <div className="p-3 rounded-lg bg-primary/10 text-primary">
+                        <Briefcase className="w-6 h-6" />
+                      </div>
                       <div>
                         <h3 className="text-xl font-semibold text-foreground">
                           {exp.title}
@@ -95,31 +95,31 @@ export const Experience = () => {
                           {exp.company}
                         </p>
                       </div>
-                      <span className="text-sm text-muted-foreground">
-                        {exp.period}
-                      </span>
                     </div>
-                    <ul className="space-y-2 mt-4">
-                      {exp.description.map((item, i) => (
-                        <li
-                          key={i}
-                          className="text-muted-foreground flex items-start gap-2"
-                        >
-                          <span className="text-primary mt-1.5">•</span>
-                          <span>{item}</span>
-                        </li>
-                      ))}
-                    </ul>
-                    {exp.link && (
-                      <a
-                        href={exp.link}
-                        target="_blank"
-                        className="inline-flex items-center gap-2 mt-4 text-primary hover:underline"
-                      >
-                        Project Link <ExternalLink className="w-4 h-4" />
-                      </a>
-                    )}
+                    <span className="text-sm text-muted-foreground">
+                      {exp.period}
+                    </span>
                   </div>
+                  <ul className="space-y-2 mt-4">
+                    {exp.description.map((item, i) => (
+                      <li
+                        key={i}
+                        className="text-muted-foreground flex items-start gap-2"
+                      >
+                        <span className="text-primary mt-1.5">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {exp.link && (
+                    <a
+                      href={exp.link}
+                      target="_blank"
+                      className="inline-flex items-center gap-2 mt-4 text-primary hover:underline"
+                    >
+                      Project Link <ExternalLink className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
               </Card>
             </motion.div>
