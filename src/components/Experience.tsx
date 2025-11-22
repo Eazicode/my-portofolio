@@ -91,14 +91,16 @@ export const Experience = () => {
                         <h3 className="text-xl font-semibold text-foreground">
                           {exp.title}
                         </h3>
-                        <p className="text-primary font-medium">
-                          {exp.company}
-                        </p>
+                        <div className="flex items-center gap-5">
+                          <p className="text-primary font-medium">
+                            {exp.company}
+                          </p>
+                          <span className="text-sm text-muted-foreground">
+                            {exp.period}
+                          </span>
+                        </div>
                       </div>
                     </div>
-                    <span className="text-sm text-muted-foreground">
-                      {exp.period}
-                    </span>
                   </div>
                   <ul className="space-y-2 mt-4">
                     {exp.description.map((item, i) => (
