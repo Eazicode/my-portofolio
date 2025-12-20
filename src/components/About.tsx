@@ -40,7 +40,7 @@ export const About = () => {
                 Profile
               </h3>
               <p className="text-muted-foreground leading-relaxed">
-                Results-driven Frontend Engineer with 3+ years of experience
+                Results-driven Frontend Engineer with 2+ years of experience
                 developing and optimizing high-performance web applications
                 using modern JavaScript frameworks (React, TypeScript, Next.js).
                 Proven ability to implement responsive UI/UX, improve Core Web

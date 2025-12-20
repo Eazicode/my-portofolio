@@ -33,7 +33,6 @@ export const Experience = () => {
     {
       title: "Junior Engineer",
       company: "STANBIC IBTC HOLDING PLC",
-      period: "Jul 2024 – Oct 2024",
       description: [
         "Collaborated with designers to develop visually appealing and intuitive user interfaces for a seamless browsing experience.",
         "Utilized various Reactjs/Nextjs front-end frameworks for efficient application development and seamless integration of UI components.",

@@ -9,7 +9,7 @@ export const Skills = () => {
       'NextJS',
       'Tailwind CSS',
       'Bootstrap',
-      'Material UI',
+      'Material UI (MUI)',
       'Styled Components',
       'Radix',
       'Shadcn',

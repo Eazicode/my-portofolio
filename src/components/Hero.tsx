@@ -51,7 +51,7 @@ export const Hero = () => {
           variants={itemVariants}
           className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed"
         >
-          Results-driven Frontend Engineer with over 3 years of hands-on
+          Results-driven Frontend Engineer with over 2 years of hands-on
           experience optimizing frontend applications for responsive design,
           SEO, and enhanced site performance. Eager to contribute to
           high-performing teams by delivering scalable, user-focused designs
